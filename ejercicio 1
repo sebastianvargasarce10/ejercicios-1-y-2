@@ -1,0 +1,11 @@
+// Ejercicio 1: Suma de dos enteros
+#include <iostream>     // Librería para entrada y salida de datos (cout, cin)
+using namespace std;    // Permite usar cout y cin sin escribir std:: delante
+
+int main() {
+    int a, b;           // Declaramos dos variables enteras
+    cout << "Ingrese dos números enteros: ";   // Muestra mensaje en pantalla
+    cin >> a >> b;      // Lee los dos números ingresados por el usuario
+    cout << "Suma: " << a + b << endl;  // Muestra la suma en pantalla
+    return 0;           // Fin del programa
+}
