@@ -1,0 +1,16 @@
+// Ejercicio 2: Par o impar
+#include <iostream>   // Librería para entrada y salida
+using namespace std;
+
+int main() {
+    int n;   // Variable para guardar el número
+    cout << "Ingrese un número entero: ";
+    cin >> n;   // Lee el número ingresado por el usuario
+
+    if (n % 2 == 0)    // Si el resto de dividir n entre 2 es 0
+        cout << "Es par" << endl;   // Es número par
+    else
+        cout << "Es impar" << endl; // Si no, es impar
+
+    return 0;   // Termina el programa
+}
